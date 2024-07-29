@@ -1,0 +1,142 @@
+/*  
+     Name: Guokai Shi
+     File Name: styels.css
+     Date Created: 2024-07-18
+     Description: This CSS file provides the styling for the registration form.
+                  It includes styles for the body, form container, text fields, checkboxes, 
+                  and buttons to ensure a consistent and visually appealing layout.
+*/
+/* Apply global styles to the body element */
+body {
+    /* Set the default font for the page */
+    font-family: Arial, sans-serif;
+    /* Set the background color for the page */
+    background-color: #f4f4f4;
+    /* Remove default margin and padding from the body */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the form container */
+.formcontainer {
+    /* Set the width of the form container to 50% of the page */
+    width: 50%;
+    /* Center the form container with auto margins */
+    margin: 5% auto;
+    /* Add padding inside the form container */
+    padding: 20px;
+    /* Set the background color of the form container to white */
+    background-color: white;
+    /* Add a subtle shadow around the form container */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    /* Round the corners of the form container */
+    border-radius: 8px;
+}
+
+/* Style for the main heading (h1) */
+h1 {
+    /* Center the heading text */
+    text-align: center;
+    /* Set the text color of the heading */
+    color: #333;
+}
+
+/* Style for horizontal rules (hr) */
+hr {
+    /* Remove the default border */
+    border: 0;
+    /* Set the height of the horizontal rule */
+    height: 1px;
+    /* Set the background color for the horizontal rule */
+    background-color: #ddd;
+    /* Add margin above and below the horizontal rule */
+    margin: 20px 0;
+}
+
+/* Style for text fields */
+.textfield {
+    /* Add margin below each text field for spacing */
+    margin-bottom: 15px;
+}
+
+/* Style for labels within text fields */
+.textfield label {
+    /* Display the label as a block element */
+    display: block;
+    /* Add margin below the label for spacing */
+    margin-bottom: 5px;
+    /* Set the text color of the label */
+    color: #333;
+}
+
+/* Style for text input and password input fields */
+.textfield input[type="text"],
+.textfield input[type="password"] {
+    /* Set the width of the input fields to 100% */
+    width: 100%;
+    /* Add padding inside the input fields */
+    padding: 10px;
+    /* Set the border color and style */
+    border: 1px solid #ccc;
+    /* Round the corners of the input fields */
+    border-radius: 4px;
+    /* Ensure the padding is included in the element's total width and height */
+    box-sizing: border-box;
+}
+
+/* Style for checkboxes */
+.checkbox {
+    /* Add margin below each checkbox for spacing */
+    margin-bottom: 15px;
+}
+
+/* Style for labels within checkboxes */
+.checkbox label {
+    /* Add margin to the left of the label for spacing */
+    margin-left: 5px;
+    /* Set the text color of the label */
+    color: #333;
+}
+
+/* Style for submit and reset buttons */
+button[type="submit"],
+button[type="reset"] {
+    /* Set the width of the buttons to 48% */
+    width: 48%;
+    /* Add padding inside the buttons */
+    padding: 10px;
+    /* Remove the default border */
+    border: none;
+    /* Round the corners of the buttons */
+    border-radius: 4px;
+    /* Change the cursor to a pointer when hovering over the buttons */
+    cursor: pointer;
+    /* Set the font size of the button text */
+    font-size: 16px;
+    /* Add margin to the top of the buttons */
+    margin-top: 10px;
+}
+
+/* Specific style for the submit button */
+button[type="submit"] {
+    /* Set the background color of the submit button */
+    background-color: #007bff;
+    /* Set the text color of the submit button */
+    color: white;
+}
+
+/* Specific style for the reset button */
+button[type="reset"] {
+    /* Set the background color of the reset button */
+    background-color: #dc3545;
+    /* Set the text color of the reset button */
+    color: white;
+}
+/* Style for error messages that should appear inline with specific checkboxes */
+.error-message-inline {
+    display: inline-block; /* Display the error message as an inline-block element */
+    margin-left: 10px; /* Add a left margin to create space between the error message and the checkbox label */
+    color: red; /* Set the text color of the error message to red */
+    font-size: 12px; /* Set the font size of the error message to 12 pixels */
+    vertical-align: middle; /* Align the error message vertically in the middle relative to the checkbox */
+}
